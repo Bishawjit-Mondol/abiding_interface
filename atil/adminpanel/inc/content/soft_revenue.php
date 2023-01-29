@@ -1,0 +1,1 @@
+<h1>Revenue</h1><div id="bigmenu"><a href="index.php?page=soft_revenue_daily">Daily Revenue</a><a href="index.php?page=soft_revenue_datewise">Date-wise Revenue</a><a href="index.php?page=soft_revenue_manual">New Revenue</a></div>

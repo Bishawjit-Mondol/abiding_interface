@@ -1,0 +1,123 @@
+body{
+  padding:0px;
+  margin:0px;
+  border-style:none;
+  border-width:0px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:0.1in;
+  text-align:center;
+}
+
+img.printspace{
+	border:none;
+	width:100%;
+	height:200px;
+}
+
+
+.notforprint,
+.dontshow{
+  display:none;
+}
+
+.onlyprint{
+  font-size:0.1in;
+}
+
+table{
+  border-collapse:collapse;
+}
+
+td{
+  text-align:justify;
+  vertical-align:top;
+}
+
+table.roundangled20
+{
+	display:block;
+	width:8.5in;
+	max-height:8in;  
+	border-style:none;
+	border-width:0px;
+	margin:0px auto;
+}
+
+table.roundangled20 td.pspace{
+	height:1.5in;
+}
+
+table.roundangled20 td{
+	border-style:none;
+	border-width:0px;
+}
+
+table.roundangled20 td.banner
+{
+	height:0.3in;
+	font-size:0.3in;
+	font-weight:bold;
+	text-align:center;
+}
+
+table.roundangled20 tr.topinfo td table{
+	width:100%;
+	height:2in;
+}
+
+table.roundangled20 tr.topinfo_inv td table{
+	width:100%;
+	height:1.4in;
+}
+
+table.roundangled20 tr.topinfo td table td,
+table.roundangled20 tr.topinfo_inv td table td{
+	padding:0px 20px;
+	vertical-align:middle;
+	border-style:solid; border-width:1px;
+}
+
+table.data{
+	width:100%;
+}
+
+table.data td{
+	border: solid 1px;
+	padding-left: 5px; 
+}
+
+table.data td.ral{
+	text-align:right;
+	padding-right:5px;
+}
+
+table.data td.nb{
+	border:none;
+}
+
+table.signature{
+	height:1in;
+	width:100%;
+	border:1px solid;
+}
+
+table.signature td{
+	text-align:center;
+	vertical-align:bottom;
+}
+
+#vou_sign{
+	border:none;
+}
+
+#vou_sign td{
+	border:none;
+	text-align:center;
+}
+
+div.pagebreak{
+	page-break-after:always;
+}
+table.pagebreak{
+	page-break-after:always;
+}

@@ -1,0 +1,1 @@
+<h1>Stock</h1><div id="bigmenu">			<a href="index.php?page=soft_stock_current">Current Stock</a>			<a href="index.php?page=soft_stock_daily">Daily Stock</a>			<a href="index.php?page=soft_stock_datewise">Date-wise Stock</a></div>

@@ -1,0 +1,15 @@
+<?php
+		if($q==1){
+			$say=2;
+			$_SESSION[sc]=++$sc;
+		}
+		elseif($q==4){
+			$say=4;
+		}
+		elseif($q==5){
+			$say=5;
+		}
+		else{
+			$say=3;
+		}
+?>

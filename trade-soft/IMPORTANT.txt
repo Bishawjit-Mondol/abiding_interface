@@ -1,0 +1,23 @@
+
+********   Efficient Query    *********
+
+
+EXPLAIN SELECT idstock_product_output, stock_product_output_date, idproduct, stock_product_output_qunatity, stock_product_output_price, idpestablishment, stock_product_output_type, stock_product_output_status
+FROM
+(SELECT idstock_product_output FROM sales_stock_product_output s WHERE idsales =  15) as a
+LEFT JOIN stock_product_output s USING(idstock_product_output);
+
+
+
+
+EXPLAIN SELECT idproduct, stock_product_output_qunatity, stock_product_output_price FROM stock_product_output WHERE idstock_product_output IN
+(SELECT idstock_product_output FROM sales_stock_product_output s WHERE idsales =  15);
+
+
+
+
+
+EXPLAIN SELECT idproduct, stock_product_output_qunatity, stock_product_output_price FROM
+    ( SELECT * FROM sales_stock_product_output WHERE idsales =15) as a
+    LEFT JOIN
+     stock_product_output USING(idstock_product_output) ;

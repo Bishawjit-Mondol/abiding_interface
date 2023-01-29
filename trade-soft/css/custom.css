@@ -1,0 +1,75 @@
+@font-face
+{
+font-family: Code39AzaleaFont;
+src: url('../fonts/Code39Azalea.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+   url('../fonts/Code39Azalea.woff') format('woff'), /* Modern Browsers */
+   url('../fontsCode39Azalea.ttf') format('truetype'), /* Safari, Android, iOS */
+   url('../fontsCode39Azalea.svg#Code39Azalea') format('svg'); /* Legacy iOS */
+font-weight: normal;
+font-style: normal;
+}
+
+h4#head-loading{
+	display: none;
+}
+div.knob-holder{
+	display: none;
+}
+div.alert-dismissable{
+	display: none;
+}
+
+div.knob-holder{
+	display:none
+}
+section.content-header{
+	
+}
+
+.box .box-header h3.box-title{
+	display:none;	
+}
+
+.box .box-header h3.box-title.box-visible{
+	display:inline-block;	
+}
+
+.pre-loaded-info{
+	display:none;
+}
+
+tr.row-red td{
+	color:red;
+}
+table.report-head{
+	display:none;
+}
+table.report-ender{
+	display:none;
+}
+label.barcode39{
+  font-family: 'Code39AzaleaFont';
+  font-size:20px;
+}
+div.barcode{
+	text-align:center;
+}
+div.cheque-details{
+	display:none;
+}
+
+th.tdcell-ra{
+	text-align:right;
+}
+td.tdcell-ra{
+	text-align:right;
+}
+
+tdcell-ra-p{
+	text-align:right; 
+}
+
+tr.red-row{
+	color:red;
+}
+

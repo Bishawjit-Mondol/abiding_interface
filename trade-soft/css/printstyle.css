@@ -1,0 +1,193 @@
+body{
+  font-family: "arial";
+  font-size:18px;
+}
+
+#ttd{
+	display:none;
+}
+tr.dontshow{
+  display:none;
+}
+
+body{
+  padding:0px;
+  margin:0px;
+  border-style:none;
+  border-width:0px;
+}
+
+a{
+  text-decoration:none;
+  cursor:pointer;
+  color:#000000;
+}
+
+h1,h2,h3,h4,h5,h6,form,div{
+  display:inline-block;
+  padding:0px;
+  margin:0px;
+}
+
+a img{
+  display:inline-block;
+  padding:0px;
+  margin:0px;
+  border-width:0px;
+  border-style:none;
+  vertical-align:middle;
+}
+
+#topmenu,
+#ttd,
+#ending{
+	display:none;
+}
+
+/*---------------CONTENT--------------------*/
+#content{
+  display:block;
+  width:100%;
+  padding:0px;
+  margin-top:0px;
+  height:auto;
+ 
+}
+
+#content #banner{
+  font-size:45px;
+  padding-top:10px;
+}
+
+#content #banner img{
+  display:inline-block;
+  float:left;
+  padding:0px 5px;
+  margin:0px;
+  border-width:0px;
+  border-style:none;
+  height:50px;
+}
+
+#content #banner img.right{
+  float:right;
+}
+
+#content #banner small{
+  font-size:10px;
+}
+
+#content #banner b{
+  font-size:16px;
+}
+
+#content img.customwidth{
+  display:inline-block;
+  padding:0px;
+  margin:0px;
+  border-width:0px;
+  border-style:none;
+  height:1px;
+}
+
+#content table.roundangled20{
+  margin:20px;
+}
+
+#content table.rb{
+  border-width:1px 1px 0px 0px;
+  border-style:solid;
+  border-color:#dddddd;
+}
+
+#content table.centeraligned tr td{
+  text-align:center;
+}
+
+#content table.embossed tr td{
+  text-align:justify;
+}
+
+#content table.embossed tr th{
+  text-align:center;
+}
+
+#content table.leftaligned tr td{
+  text-align:left;
+}
+
+#content table.roundangled20,
+#content table.rb
+{
+	padding:5px;
+  border-style:solid;
+  border-color:#888888;
+  border-width:1px;
+  border-spacing:10;
+  border-collapse:collapse;
+}
+
+#content table.roundangled20 tr td,
+#content table.roundangled20 tr th,
+#content table.rb tr td,
+#content table.rb tr th,
+#content .embossed{
+  padding:2px;
+  margin:0px;
+  border-style:solid;
+  border-color:#888888;
+  border-width:0px 0px 1px 1px;
+  text-align:justify;
+}
+
+#content .embossed{
+  padding:0px;
+  margin:0px;
+  text-align:center;
+  border-style:solid;
+  border-color:#888888;
+  border-width:0px 0px 1px 1px;
+  text-align:justify;
+}
+
+#content .embossed{
+  padding:5px;
+}
+#content table.roundangled20 tr td,
+#content table.rb tr td{
+  text-align:justify;
+}
+
+#content .embossed th{
+ padding:10px 0px;
+}
+.notforprint{
+  display:none;
+}
+tr.dontshow{
+  display:none;
+}
+
+.noborder{
+	border:none;
+}
+
+
+.rightaligned{
+	text-align:right;
+}
+
+.smalltext{
+	font-size:12px;
+}
+
+img.printspace{
+	border:none;
+	width:100%;
+	height:200px;
+}
+
+.notforprint{
+  display:none;
+}
+

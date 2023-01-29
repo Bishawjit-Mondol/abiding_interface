@@ -1,0 +1,22 @@
+[24-Jun-2021 12:58:54 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20190902
+These options need to match
+ in Unknown on line 0
+[24-Jun-2021 12:58:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.5.4.lin' (tried: /opt/php54/lib/php/extensions/no-debug-non-zts-20100525/ixed.5.4.lin (/opt/php54/lib/php/extensions/no-debug-non-zts-20100525/ixed.5.4.lin: undefined symbol: _zval_ptr_dtor), /opt/php54/lib/php/extensions/no-debug-non-zts-20100525/ixed.5.4.lin.so (/opt/php54/lib/php/extensions/no-debug-non-zts-20100525/ixed.5.4.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[24-Jun-2021 18:58:54 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/abidingg/public_html/afl/_private/db.php:4
+Stack trace:
+#0 /home1/abidingg/public_html/afl/index.php(4): dbconnect()
+#1 {main}
+  thrown in /home1/abidingg/public_html/afl/_private/db.php on line 4
+[24-Jun-2021 12:58:55 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20180731
+These options need to match
+ in Unknown on line 0
+[24-Jun-2021 12:58:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.5.4.lin' (tried: /opt/php54/lib/php/extensions/no-debug-non-zts-20100525/ixed.5.4.lin (/opt/php54/lib/php/extensions/no-debug-non-zts-20100525/ixed.5.4.lin: undefined symbol: _zval_ptr_dtor), /opt/php54/lib/php/extensions/no-debug-non-zts-20100525/ixed.5.4.lin.so (/opt/php54/lib/php/extensions/no-debug-non-zts-20100525/ixed.5.4.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[24-Jun-2021 18:58:55 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/abidingg/public_html/afl/_private/db.php:4
+Stack trace:
+#0 /home1/abidingg/public_html/afl/index.php(4): dbconnect()
+#1 {main}
+  thrown in /home1/abidingg/public_html/afl/_private/db.php on line 4

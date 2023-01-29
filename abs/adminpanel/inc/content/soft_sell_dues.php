@@ -1,0 +1,1 @@
+<h1>Receivables</h1><?php	$q=mysql_query("SELECT * FROM sells WHERE status=2 ORDER BY id DESC");	include("inc/sell_display.php");?>

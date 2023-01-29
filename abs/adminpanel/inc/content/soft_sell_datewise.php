@@ -1,0 +1,1 @@
+<h1>Datewise Sell</h1><?php	include("inc/double_date.php");	$q=mysql_query("SELECT * FROM sells WHERE status>0 AND status<4 AND date BETWEEN '".$date1."' AND  '".$date2."' ORDER BY id DESC");	include("inc/sell_display.php");	?>

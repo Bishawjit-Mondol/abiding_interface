@@ -1,0 +1,1 @@
+<h1>Expenses</h1><div id="bigmenu"><a href="index.php?page=soft_expenses_daily">Daily Expenses</a><a href="index.php?page=soft_expenses_datewise">Date-wise Expenses</a><a href="index.php?page=soft_expenses_manual">New Expenses</a></div>

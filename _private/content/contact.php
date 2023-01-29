@@ -1,0 +1,1 @@
+				<div class="about">						<div class="testimonials">							<div class="wrap">								<div class="testimonial-head">									<h1><span><?=$companyname?></span> Contact Information</h1>									<p>Feel free to contact us <?=$companyname?></p>								</div>								<?									grid_images('contact');								?>							</div>						</div>				</div>

@@ -1,0 +1,1 @@
+<h1>Datewise Revenue</h1><?	include("inc/double_date.php");	$q=mysql_query("SELECT * FROM payments WHERE  amount>0 AND date between '".$date1."' AND '".$date2."' ORDER BY date DESC");	include("inc/revenue_display.php");?>

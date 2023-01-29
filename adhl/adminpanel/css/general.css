@@ -1,0 +1,296 @@
+body{
+  padding:0px;
+  margin:0px;
+  border-style:none;
+  border-width:0px;
+  font-size:12px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration:none;
+  cursor:pointer;
+}
+
+h1,h2,h3,h4,h5,h6,form{
+  display:block;
+}
+
+h1{
+	font-size:18px;
+}
+
+h2{
+	font-size:16px;
+}
+
+h3{
+	font-size:14px;
+}
+
+h4{
+	font-size:12px;
+}
+
+h5{
+	font-size:10px;
+}
+
+h6{
+	font-size:8px;
+}
+
+a img{
+  display:inline-block;
+  padding:0px;
+  margin:0px;
+  border-width:0px;
+  border-style:none;
+  vertical-align:middle;
+}
+
+/*------------TIME-DATE-DAY-----------------*/
+
+#ttd{
+  display:block;
+  width:750px;
+  margin:0px;
+  height:25px;
+  overflow:hidden;
+  font-size:8px;
+}
+
+#ttd #digclock,
+#ttd #date,
+#ttd #userloged{
+  display:inline-block;
+  float:right;
+  margin:3px;
+}
+
+/*---------------CONTENT--------------------*/
+#content{
+  display:block;
+  width:100%;
+  padding:0px;
+  margin:0px;
+  height:auto;
+  align:center;
+}
+
+#content #banner{
+  font-size:25px;
+}
+
+#content img.leftpillar,
+#content img.rightpillar,
+#content img.customwidth{
+  display:inline-block;
+  padding:0px;
+  margin:0px;
+  border-width:0px;
+  border-style:none;
+}
+
+#content img.leftpillar,
+#content img.rightpillar{
+  width:1px;
+  height:600px;
+}
+
+#content img.leftpillar{
+  float:left;
+}
+
+#content img.rightpillar{
+  float:right;
+}
+
+#content img.customwidth{
+  height:1px;
+}
+
+#content table.roundangled20{
+  margin:20px;
+}
+
+#content table.rb{
+  display:inline-block;
+  border-style:solid;
+  border-width:1px;
+  margin:0px;
+  box-shadow:2px 2px 2px #888888;
+}
+
+#content table.centeraligned tr td{
+  text-align:center;
+}
+
+#content table.leftaligned tr td{
+  text-align:left;
+}
+
+#content table.rb tr td,
+#content table.rb tr th{
+  padding:5px 5px;
+  margin:5px 0px;
+  text-align:center;
+  border-style:solid;
+  border-width:1px;
+}
+
+#content .embossed{
+  display:inline-block;
+  padding:5px 5px;
+  margin:5px 10px;
+  text-align:center;
+  border-style:outset;
+  border-width:1px;
+  box-shadow:2px 2px 2px #888888;
+}
+
+#content #bigmenu{
+  display:block;
+  margin:auto;
+}
+
+#content #bigmenu a,
+#content a.bigbutton{
+  display:block;
+  width:250px;
+  height:auto;
+  padding:10px;
+  margin:30px;
+  border-width:1px;
+  font-size:16px;
+}
+
+#content a.button{
+  display:inline-block;
+  width:auto;
+  height:auto;
+  font-size:12px;
+  padding:5px 10px 3px 10px;
+  margin:0px 10px;
+  border-style:solid;
+  border-width:1px;
+}
+
+#content input.searchword{
+  width:250px;
+  height:45px;
+  padding:5px 10px;
+  font-size:25px;
+  border-style:inset;
+  border-width:3px;
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+}
+
+#content .outsetbordered{
+  border-style:outset;
+  border-width:3px;
+  margin:10px;
+  padding:0px;
+}
+
+#content table.structured{
+  display:inline-block;
+  border-style:none;
+  border-width:0px;
+  margin:10px auto;
+}
+
+#content table.structured td,
+#content table.structured th{
+  padding:10px;
+  border-style:solid;
+  border-width:1px;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  text-align:center;
+}
+
+#content table.formaligner{
+  display:inline-block;
+  border-style:none;
+  border-width:0px;
+  margin:auto;
+}
+
+#content table.formaligner td{
+  text-align:left;
+  border-style:none;
+  border-width:0px;
+  vertical-align:top;
+}
+
+#content table.formaligner th{
+  text-align:center;
+  border-style:none;
+  border-width:0px;
+  font-weight:bold;
+  vertical-align:top;
+}
+
+#content table.formaligner td.r,
+#content table.formaligner th.r,
+#content table.rb td.r,
+#content table.rb th.r{
+	text-align:right;
+}
+
+#content table.formaligner td.l,
+#content table.formaligner th.l,
+#content table.rb td.l,
+#content table.rb th.l{
+	text-align:left;
+}
+
+/*---------------ENDING--------------------*/
+#ending{
+  display:block;
+  font-size:10px;
+  width:100%;
+  height:60px;
+  padding:0px;
+  margin:0px;
+  overflow:hidden;
+  border-width:1px 0px 0px 0px;
+  border-style:outset;
+  font-weight:bold;
+}
+
+#ending a{
+  display:inline-block;
+  padding:5px 10px;
+}
+
+#hidden{
+  display:none;
+}
+
+#washidden{
+  display:inline;
+}
+
+/*-----Loding-----*/
+
+#loading{
+  display:none;
+  width:0px;
+  height:0px;
+  overflow:hidden;
+  margin:0px;
+  padding:0px;
+}
+
+#showloading{
+  display:block;
+  width:auto;
+  height:auto;
+  margin:0px;
+  padding:0px;
+}

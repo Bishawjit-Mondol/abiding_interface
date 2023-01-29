@@ -1,0 +1,56 @@
+body{
+  background-color:#dddddd;
+  color:#000000;
+}
+
+a{
+  color:#4488ee;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#44ee88;
+}
+
+#loginform{
+  padding:20px;
+  margin:auto;
+  width:500px;
+  text-align:center;
+  border-style:outset;
+  border-width:3px;
+  border-color:#aaaaaa;
+  border-radius:8px;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  background-color:#ffffff;
+  background-image:url('menubg.jpg');
+  background-position:bottom;
+  background-repeat:repeat-x;
+}
+
+td{
+	text-align:left;
+	padding:5px;
+}
+
+th{
+	text-align:right;
+	padding:5px;
+}
+
+td.centerized{
+	text-align:center;
+}
+
+.red{
+  color:#bb0000;
+}
+
+.green{
+  color:#44BB66;
+}
+
+.blue{
+  color:#4488ee;
+}

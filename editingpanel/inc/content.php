@@ -1,0 +1,19 @@
+<?php
+	$page=$_GET['page'];
+	if($page)
+	{
+		$path="inc/content/".$page.".php";
+		if(file_exists("$path"))
+		{
+			include("$path");
+		}
+		else
+		{
+			include("inc/content/default.php");
+		}
+	}
+	else
+	{
+		include("inc/content/home.php");
+	}
+?>

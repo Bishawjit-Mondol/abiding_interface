@@ -1,0 +1,36 @@
+#sidemenu{
+  display:inline-block;
+  float:left;
+  height:auto;
+  font-size:14px;
+  text-align:left;
+  margin-right:5px;
+}
+
+#sidemenu a{
+  display:block;
+  text-align:left;
+  height:auto;
+  width:100px;
+  padding:5px 10px;
+  margin:5px 20px 5px 5px;
+  text-decoration:none;
+  color:#ffffff;
+  font-weight:bold;
+	background-image:url('tbd.png');
+	background-repeat:repeat;
+	border-style:solid;
+	border-color:#006794;
+	border-width:1px;
+  box-shadow:1px 1px 1px #04577B;
+}
+
+#sidemenu a:hover{
+  background-color:#eeeeee;
+  border-color:#aaaaff;
+}
+
+#sidemenu b{
+	margin-left:5px;
+	font-size:14px;
+}
