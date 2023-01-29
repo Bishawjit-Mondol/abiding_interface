@@ -13,7 +13,6 @@ if (!empty($_GET['page'])) {
 } else {
 	$page = 'home';
 }
-//$page = $_GET['page'];
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -35,6 +34,7 @@ if (!empty($_GET['page'])) {
 	</script>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/slider-style.css" />
+	<link rel="stylesheet" type="text/css" href="css/drop-down.css" />
 	<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
 
 	<script src="js/login.js"></script>
@@ -47,49 +47,6 @@ if (!empty($_GET['page'])) {
 		});
 	</script>
 </head>
-
-<style>
-/* Style The Dropdown Button */
-.dropbtn {
-  color: #777777;
-  padding: 16px;
-  font-size: 1.2em;
-  border: none;
-  cursor: pointer;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-</style>
 
 <body>
 	<div id="page">
