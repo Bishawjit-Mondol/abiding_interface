@@ -1,5 +1,7 @@
+<!-- Home -->
 <li><a href="index.php?page=home">Home</a></li>
 
+<!-- About -->
 <div class="dropdown">
   <a class="dropbtn">About</a>
   <div class="dropdown-content">
@@ -9,9 +11,10 @@
   </div>
 </div>
 
+<!-- Career -->
 <li><a href="index.php?page=career">Career</a></li>
 
-<!-- <li><a href="index.php?page=contact">Contact</a></li> -->
+<!-- Contact -->
 <div class="dropdown">
   <a class="dropbtn">Contact</a>
   <div class="dropdown-content">
@@ -21,6 +24,7 @@
   </div>
 </div>
 
+<!-- Message -->
 <div class="dropdown">
   <a class="dropbtn">Message</a>
   <div class="dropdown-content">
@@ -28,6 +32,7 @@
   </div>
 </div>
 
+<!-- Our Units -->
 <div class="dropdown">
   <a class="dropbtn">Our Units</a>
   <div class="dropdown-content">
