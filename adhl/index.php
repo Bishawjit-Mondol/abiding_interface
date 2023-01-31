@@ -4,6 +4,7 @@
 
 <html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
 <?php
+error_reporting(0);
 date_default_timezone_set('Asia/Dhaka');
 include("_private/db.php");
 dbconnect();
@@ -118,7 +119,7 @@ if (!empty($_GET['data_id'])) {
 			</div>
 			<div class="one_quarter">
 				<h2 class="footer_title">Contact Details</h2>
-				<?
+				<?php
 				echo "<table style='border-width:0px'>";
 				$q = get_page_text_data(8);
 				$count = 0;
