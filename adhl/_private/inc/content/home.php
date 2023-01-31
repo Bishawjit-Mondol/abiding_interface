@@ -53,4 +53,3 @@
 				}
 		echo "</section>";
 		echo "<div class='clear'></div></div></div>";
-?>

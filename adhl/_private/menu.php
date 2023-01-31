@@ -11,4 +11,3 @@
 		echo $data['visual'];
 		echo "</a>";
   }
-?>
