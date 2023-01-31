@@ -5,8 +5,8 @@
 <div class="dropdown">
   <a class="dropbtn">About</a>
   <div class="dropdown-content">
-    <a href="#">Corporate Profile</a>
-    <a href="index.php?page=about">Company Profile</a>
+    <a href="index.php?page=about">Corporate Profile</a>
+    <!-- <a href="#">Company Profile</a> -->
     <a href="#">Mission, Vision & Values</a>
   </div>
 </div>
@@ -16,9 +16,9 @@
 <div class="dropdown">
   <a class="dropbtn">Career</a>
   <div class="dropdown-content">
-    <a href="#">Marketing & Sales</a>
-    <a href="#">Engineer</a>
-    <a href="#">Procurement</a>
+    <a href="index.php?page=large_img&&img=12">Marketing & Sales</a>
+    <a href="index.php?page=large_img&&img=13">Engineer</a>
+    <a href="index.php?page=large_img&&img=14">Procurement</a>
   </div>
 </div>
 
@@ -34,10 +34,10 @@
 <div class="dropdown">
   <a class="dropbtn">Our Units</a>
   <div class="dropdown-content">
-    <a href="#">ADHL</a>
-    <a href="#">ABSL</a>
-    <a href="#">ATIL</a>
-    <a href="#">UW</a>
+    <a href="http://adhl.abidinggroupbd.com/" target="_blank">ADHL</a>
+    <a href="http://abs.abidinggroupbd.com/" target="_blank">ABSL</a>
+    <a href="http://atil.abidinggroupbd.com/" target="_blank">ATIL</a>
+    <a href="http://uwl.abidinggroupbd.com/" target="_blank">UW</a>
   </div>
 </div>
 
