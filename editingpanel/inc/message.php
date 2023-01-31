@@ -30,4 +30,3 @@
 	else{
 		echo "<h2 class='blue' id='loading'><img src='../images/loading.gif' alt='Loading'></h2>";
 	}
-?>

@@ -17,41 +17,41 @@ function get_fixedtext($id)
 function full_image($id)
 {
 	$q1m = mysql_query("SELECT img.*, 
-																			imgtype.imgtype 
-																			FROM img 
-																			LEFT JOIN imgtype ON (img.imgtype_id=imgtype.id)
-																			WHERE img.id='" . $id . "'
-																			");
+						imgtype.imgtype 
+						FROM img 
+						LEFT JOIN imgtype ON (img.imgtype_id=imgtype.id)
+						WHERE img.id='" . $id . "'
+						");
 	$qd = mysql_fetch_assoc($q1m);
 	echo "				
-												<div class='about'>
-														<div class='wrap'>
-															<div class='panels'>
-																<div class='panel-left'>";
+		<div class='about'>
+				<div class='wrap'>
+					<div class='panels'>
+						<div class='panel-left'>";
 	if (file_exists("images/db/" . $qd['id'] . $qd['imgtype'])) echo "<img src='images/db/" . $qd['id'] . $qd['imgtype'] . "' width='60%'>";
 	echo "</div>
-																<div class='panel-right'>
-																	<h3><span>" . $qd['caption'] . "</span></h3>
-																	<p style='text-align:justify;'>
-																		" . $qd['description'] . "
-																	</p>
-																</div>
-																<div class='clear'> </div>
-															</div>
-														</div>
-												</div>
-											";
+						<div class='panel-right'>
+							<h3><span>" . $qd['caption'] . "</span></h3>
+							<p style='text-align:justify;'>
+								" . $qd['description'] . "
+							</p>
+						</div>
+						<div class='clear'> </div>
+					</div>
+				</div>
+		</div>
+		";
 }
 
 function grid_images($table)
 {
-	$qm = mysql_query("SELECT img.id, 	img.caption, 	 SUBSTR(img.description,1,100) as description,
-																			imgtype.imgtype 
-																			FROM " . $table . " 
-																			LEFT JOIN img ON (" . $table . ".img_id=img.id)
-																			LEFT JOIN imgtype ON (img.imgtype_id=imgtype.id)
-																			ORDER BY img.priority DESC
-																			");
+	$qm = mysql_query("SELECT img.id, img.caption, SUBSTR(img.description,1,100) as description,
+					imgtype.imgtype 
+					FROM " . $table . " 
+					LEFT JOIN img ON (" . $table . ".img_id=img.id)
+					LEFT JOIN imgtype ON (img.imgtype_id=imgtype.id)
+					ORDER BY img.priority DESC
+					");
 
 	$count = 0;
 	echo "<div class='testimonial-grids'>";
@@ -78,13 +78,15 @@ function slides()
 				<div class='wrap'> 
 					<div id='da-slider' class='da-slider'>
 		";
-	$qs = mysql_query("SELECT img.id, 	img.caption, SUBSTR(img.description,1,400) as description,  img.link, 
-											imgtype.imgtype 
-											FROM slides 
-											LEFT JOIN img ON (slides.img_id=img.id)
-											LEFT JOIN imgtype ON (img.imgtype_id=imgtype.id)
-											ORDER BY img.priority DESC
-											");
+	$qs = mysql_query("SELECT img.id, 	
+					img.caption, SUBSTR(img.description,1,400) as description,  
+					img.link, 
+					imgtype.imgtype 
+					FROM slides 
+					LEFT JOIN img ON (slides.img_id=img.id)
+					LEFT JOIN imgtype ON (img.imgtype_id=imgtype.id)
+					ORDER BY img.priority DESC
+					");
 	while ($qsd = mysql_fetch_assoc($qs)) {
 		echo "<div class='da-slide'>";
 		echo "<h2>";
@@ -120,11 +122,12 @@ function slides()
 
 function u_list($table)
 {
-	$qm = mysql_query("SELECT img.id, 	img.caption
-																			FROM " . $table . " 
-																			LEFT JOIN img ON (" . $table . ".img_id=img.id)
-																			ORDER BY img.priority DESC
-																			");
+	$qm = mysql_query("SELECT img.id, 	
+					   img.caption
+					   FROM " . $table . " 
+					   LEFT JOIN img ON (" . $table . ".img_id=img.id)
+					   ORDER BY img.priority DESC
+					 ");
 	echo "<ul>";
 	$count = 0;
 	while ($qmd = mysql_fetch_assoc($qm)) {

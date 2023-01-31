@@ -10,6 +10,7 @@ session_start();
   <title>Website Editing Panel</title>
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
   <?php
+  error_reporting(0);
   include("inc/security.php");
   $companyname = get_fixedtext(1);
   ?>
