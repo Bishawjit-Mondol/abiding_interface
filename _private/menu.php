@@ -2,36 +2,44 @@
 <li><a href="index.php?page=home">Home</a></li>
 
 <!-- About -->
-<div class="dropdown">
+<li class="dropdown">
   <a class="dropbtn">About</a>
   <div class="dropdown-content">
     <a href="index.php?page=about">Corporate Profile</a>
     <!-- <a href="#">Company Profile</a> -->
     <a href="#">Mission, Vision & Values</a>
   </div>
-</div>
+</li>
+
+<!-- Contact -->
+<li class="dropdown">
+  <a class="dropbtn">Management</a>
+  <div class="dropdown-content">
+    <a href="#">Our Team</a>
+  </div>
+</li>
 
 <!-- Career -->
 <!-- <li><a href="index.php?page=career">Career</a></li> -->
-<div class="dropdown">
+<li class="dropdown">
   <a class="dropbtn">Career</a>
   <div class="dropdown-content">
     <a href="index.php?page=large_img&&img=12">Marketing & Sales</a>
     <a href="index.php?page=large_img&&img=13">Engineer</a>
     <a href="index.php?page=large_img&&img=14">Procurement</a>
   </div>
-</div>
+</li>
 
 <!-- Message -->
-<div class="dropdown">
+<li class="dropdown">
   <a class="dropbtn">Message</a>
   <div class="dropdown-content">
     <a href="#">MD's Message</a>
   </div>
-</div>
+</li>
 
 <!-- Our Units -->
-<div class="dropdown">
+<li class="dropdown">
   <a class="dropbtn">Our Units</a>
   <div class="dropdown-content">
     <a href="http://adhl.abidinggroupbd.com/" target="_blank">ADHL</a>
@@ -39,14 +47,14 @@
     <a href="http://atil.abidinggroupbd.com/" target="_blank">ATIL</a>
     <a href="http://uwl.abidinggroupbd.com/" target="_blank">UW</a>
   </div>
-</div>
+</li>
 
 <!-- Contact -->
-<div class="dropdown">
+<li class="dropdown">
   <a class="dropbtn">Contact</a>
   <div class="dropdown-content">
     <a href="index.php?page=large_img&&img=9">Corporate Office</a>
     <a href="index.php?page=large_img&&img=10">Sales Office</a>
     <a href="index.php?page=large_img&&img=52">Factory</a>
   </div>
-</div>
+</li>
