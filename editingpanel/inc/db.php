@@ -46,4 +46,3 @@
 		if(mysql_num_rows($q)) return true;
 		else return false;
 	}
-?>
