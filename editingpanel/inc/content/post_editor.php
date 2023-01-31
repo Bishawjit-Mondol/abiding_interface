@@ -142,7 +142,7 @@ include("inc/message.php");
 						<td>
 						<!-- IMAGE PREVIEW	 -->
 						<img src="../images/db/<?php echo $img . $imgtype; ?>" height="100"><br>
-						<p><?php echo $img .$imgtype; ?></p>	
+						<p><?php echo "previous Image - " . $img .$imgtype; ?></p>	
 							
 						<input type="file" name="newimage">
 						</td> 

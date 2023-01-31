@@ -45,8 +45,8 @@
 <div class="dropdown">
   <a class="dropbtn">Contact</a>
   <div class="dropdown-content">
-    <a href="#">Corporate Office</a>
-    <a href="#">Sales Office</a>
-    <a href="#">Factory</a>
+    <a href="index.php?page=large_img&&img=9">Corporate Office</a>
+    <a href="index.php?page=large_img&&img=10">Sales Office</a>
+    <a href="index.php?page=large_img&&img=52">Factory</a>
   </div>
 </div>
