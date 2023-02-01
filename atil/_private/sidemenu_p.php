@@ -9,4 +9,3 @@
 		echo "<a href='index.php?page=".$datat['page']."&&data_id=".$datat2['id']."'>".$datat2['heading']."</a>";
 	}
   }
-?>

@@ -11,4 +11,3 @@
 			echo "<a href='index.php?page=".$datat['page']."'> View All ".$datat['visual']."</a>";
 	}
   }
-?>
