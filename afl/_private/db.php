@@ -1,7 +1,8 @@
 <?php
 	function dbconnect()
 	{
-		mysql_connect("localhost","abidingg_sitev","8U533fVkMaAF") || die(mysql_error());
+		//mysql_connect("localhost","abidingg_sitev","8U533fVkMaAF") || die(mysql_error());
+		mysql_connect("localhost","root","") || die(mysql_error());
 		mysql_select_db("abidingg_afl") || die(mysql_error());
 		mysql_query("SET NAMES utf8");
 	}
