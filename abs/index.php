@@ -14,7 +14,7 @@ $domain = get_fixedtext(4);
 $admin_email = get_fixedtext(5);
 $slogan = get_fixedtext(6);
 $facebook = get_fixedtext(7);
-if ($_GET['page']) {
+if (!empty($_GET['page'])) {
 	$page = $_GET['page'];
 	$page_info = get_page_info($page);
 	$page_pagetype_id = $page_info['pagetype_id'];
@@ -27,7 +27,11 @@ if ($_GET['page']) {
 	$page_pagetype_id = 0;
 	$page_pagetype = 'custom';
 }
-$data_id = $_GET['data_id'];
+if (!empty($_GET['data_id'])) {
+	$data_id = $_GET['data_id'];
+} else {
+	$data_id = 0;
+}
 ?>
 
 <head>

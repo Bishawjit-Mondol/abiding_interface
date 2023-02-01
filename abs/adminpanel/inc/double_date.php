@@ -24,5 +24,3 @@
      echo "&nbsp;&nbsp;&nbsp;<input type='submit' name='view' value='View'>";
    echo "</form>";
    echo "<br/><h2>Report from <b class='blue'>".dateconvert($date1). "</b> to  <b class='blue'>".dateconvert($date2). "</b></h2>";
-   
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 	if($q)
 	{
 		$num=mysql_num_rows($q);
@@ -34,4 +34,3 @@
 				echo "<h1>No Records Found</h1>";
 			}
 	}
-?>

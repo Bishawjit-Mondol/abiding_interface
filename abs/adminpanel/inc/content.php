@@ -54,4 +54,3 @@
 		else
 			include("inc/content/edit.php");
     }
-?>

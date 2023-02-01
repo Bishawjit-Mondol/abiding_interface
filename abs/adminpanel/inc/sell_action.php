@@ -175,4 +175,3 @@
        $say=null;	
 	}
 	include("inc/message.php");
-?>
