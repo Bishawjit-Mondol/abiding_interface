@@ -15,7 +15,9 @@
 <li class="dropdown">
   <a class="dropbtn">Management</a>
   <div class="dropdown-content">
-    <a href="#">Our Team</a>
+  <a href="index.php?page=large_img&&img=6" target="_blank">Managing Director</a>
+  <a href="index.php?page=large_img&&img=7" target="_blank">Director Operation</a>
+  <a href="index.php?page=large_img&&img=8" target="_blank">Director Marketing</a>
   </div>
 </li>
 
