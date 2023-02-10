@@ -2,17 +2,17 @@
 
 $db = 'abidingg_abs2';
 
-// $db_check='abidingg_absu';
-// $db_check_p='0912AK_3';
+$db_check = 'abidingg_absu';
+$db_check_p = '0912AK_3';
 
-$db_check = 'root';
-$db_check_p = '';
+// $db_check = 'root';
+// $db_check_p = '';
 
-// $db_user = 'abidingg_absu';
-// $db_user_p = '0912AK_3';
+$db_user = 'abidingg_absu';
+$db_user_p = '0912AK_3';
 
-$db_user = 'root';
-$db_user_p = '';
+// $db_user = 'root';
+// $db_user_p = '';
 
 $sc = $_SESSION['sc'];
 $submit = $_POST['login'];

@@ -5,11 +5,11 @@ $db = 'abidingg_atil';
 $db_check = 'abidingg_sitev';
 $db_check_p = '8U533fVkMaAF';
 
-// $db_user = 'abidingg_sitea';
-// $db_user_p = '6LwTL[AVVkXh';
+$db_user = 'abidingg_sitea';
+$db_user_p = '6LwTL[AVVkXh';
 
-$db_user = 'root';
-$db_user_p = '';
+// $db_user = 'root';
+// $db_user_p = '';
 
 
 $sc = $_SESSION['sc'];
