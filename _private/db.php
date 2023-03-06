@@ -14,6 +14,13 @@ function get_fixedtext($id)
 	return $a[0];
 }
 
+function getMessage()
+{
+	return mysql_query("SELECT * FROM `message`
+	INNER JOIN `img` ON `message`.`img_id` = `img`.`id`
+	INNER JOIN `imgtype` ON `img`.`imgtype_id` = `imgtype`.`id`");
+}
+
 function full_image($id)
 {
 	$q1m = mysql_query("SELECT img.*, 

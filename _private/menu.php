@@ -36,7 +36,7 @@
 <li class="dropdown">
   <a class="dropbtn">Message</a>
   <div class="dropdown-content">
-    <a href="#">MD's Message</a>
+    <a href="index.php?page=message">MD's Message</a>
   </div>
 </li>
 

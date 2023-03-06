@@ -1,8 +1,8 @@
 <?php
 function connect_database()
 {
-	$con = mysql_connect("localhost", "abidingg_sitea", "6LwTL[AVVkXh");
-	//$con=mysql_connect("localhost","root","");
+	//$con = mysql_connect("localhost", "abidingg_sitea", "6LwTL[AVVkXh");
+	$con=mysql_connect("localhost","root","");
 	if (!$con) {
 		die("Server Connection Failed.");
 	}

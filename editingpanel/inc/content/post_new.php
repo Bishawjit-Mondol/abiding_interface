@@ -1,4 +1,8 @@
 <?php
+	// echo "<pre>";
+	// print_r($_POST);
+	// echo die();
+	// echo "</pre>";
     if($_POST[$sc.'submit']){
 			
 		$slides=$_POST["slides"];
@@ -6,7 +10,8 @@
 		$contact=$_POST["contact"];
 		$management=$_POST["management"];
 		$units=$_POST["units"];
-		if($_POST['caption']&&($slides||$career||$contact||$management||$units)){
+		$message=$_POST["message"];
+		if($_POST['caption']&&($slides||$career||$contact||$management||$units||$message)){
 		
 			$description=mysql_real_escape_string($_POST["description"]);
 			$caption=mysql_real_escape_string($_POST["caption"]);
@@ -58,6 +63,7 @@
 				if($q&&$contact){$q=mysql_query("INSERT INTO contact VALUES('".$img_id."')");}
 				if($q&&$management){$q=mysql_query("INSERT INTO management VALUES('".$img_id."')");}
 				if($q&&$units){$q=mysql_query("INSERT INTO units VALUES('".$img_id."')");}
+				if($q&&$message){$q=mysql_query("INSERT INTO `message` VALUES('".$img_id."')");}
 				
 				if($q&&$imgtype)
 				{
@@ -126,6 +132,7 @@
 								&nbsp;&nbsp;&nbsp;<input type="checkbox" name="career" value="career">Career
 								<br/><input type="checkbox" name="management" value="management">Management
 								&nbsp;&nbsp;&nbsp;<input type="checkbox" name="contact" value="contact">Contact
+								&nbsp;&nbsp;&nbsp;<input type="checkbox" name="message" value="message">MD's Message
 							</td>
 						</tr>
 						<tr>
