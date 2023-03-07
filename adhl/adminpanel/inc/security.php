@@ -2,18 +2,18 @@
 
 $db = 'abidingg_adhl';
 
-$db_check='abidingg_sitev';
-$db_check_p='8U533fVkMaAF';
+// $db_check='abidingg_sitev';
+// $db_check_p='8U533fVkMaAF';
 
-// $db_check = 'root';
-// $db_check_p = '';
+$db_check = 'root';
+$db_check_p = '';
 
-$db_user='abidingg_sitea';
-$db_user_p='6LwTL[AVVkXh';
+// $db_user='abidingg_sitea';
+// $db_user_p='6LwTL[AVVkXh';
 
 
-// $db_user = 'root';
-// $db_user_p = '';
+$db_user = 'root';
+$db_user_p = '';
 
 if (!empty($_SESSION['sc'])) {
 	$sc = $_SESSION['sc'];

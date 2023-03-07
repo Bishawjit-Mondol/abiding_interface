@@ -11,7 +11,7 @@ session_start();
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
   <?php
   include("inc/security.php");
-  include("inc/db.php");
+  include_once("inc/db.php");
   $companyname = get_fixedtext(1);
   $soft = checksoft();
   ?>
